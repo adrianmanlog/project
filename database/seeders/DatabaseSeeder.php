@@ -17,9 +17,9 @@ class DatabaseSeeder extends Seeder
     {
         // Seeders para la API de reparación de camiones
         $this->call([
-            ServiceSeeder::class,
-            PartSeeder::class,
-            TruckSeeder::class,
+            ServicioSeeder::class,
+            RepuestoSeeder::class,
+            CamionSeeder::class,
         ]);
     }
 }

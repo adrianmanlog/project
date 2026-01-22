@@ -5,12 +5,11 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\Repuesto;
 
-class PartSeeder extends Seeder
+class RepuestoSeeder extends Seeder
 {
     public function run(): void
     {
         $repuestos = [
-            // Ballestas
             [
                 'nombre' => 'Ballesta delantera Volvo FH',
                 'tipo' => 'ballesta',
@@ -47,8 +46,6 @@ class PartSeeder extends Seeder
                 'stock' => 4,
                 'descripcion' => 'Ballesta trasera para MAN TGX, diseño reforzado.',
             ],
-            
-            // Amortiguadores
             [
                 'nombre' => 'Amortiguador delantero Volvo FM',
                 'tipo' => 'amortiguador',
@@ -85,8 +82,6 @@ class PartSeeder extends Seeder
                 'stock' => 7,
                 'descripcion' => 'Amortiguador premium Koni para DAF XF.',
             ],
-            
-            // Otros componentes
             [
                 'nombre' => 'Kit de grapas y bujes',
                 'tipo' => 'otro',
